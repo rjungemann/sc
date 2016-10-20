@@ -336,7 +336,7 @@ CC=gcc
 # real effect on the reliability of the program, but may concern some
 # people who don't understand them.
 #CFLAGS=-DSYSV3 -O2 -Wall -pipe
-CFLAGS=-DSYSV3 -O2 -pipe
+CFLAGS=-DSYSV3 -O2 -pipe -Wno-return-type
 LIB=-lm -lncurses
 
 # All of the source files
